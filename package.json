@@ -31,7 +31,7 @@
     "dist"
   ],
   "repository": {
-    "url":""
+    "url":"https://github.com/GohilTushar/uploadNest-npm"
   },
   "publishConfig": {
     "access": "public"
