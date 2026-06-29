@@ -1,22 +1,22 @@
-# @uploadnest/sdk
+# @tusharg_33/uploadnest-sdk
 
-[![NPM version](https://img.shields.io/npm/v/@uploadnest/sdk.svg)](https://npmjs.org/package/@uploadnest/sdk)
-![Bundle Size](https://img.shields.io/bundlephobia/minzip/@uploadnest/sdk)
+[![NPM version](https://img.shields.io/npm/v/@tusharg_33/uploadnest-sdk.svg)](https://npmjs.org/package/@tusharg_33/uploadnest-sdk)
+![Bundle Size](https://img.shields.io/bundlephobia/minzip/@tusharg_33/uploadnest-sdk)
 
 TypeScript library for uploading files to Uploadnest API. Works in Node.js, Next.js, and browsers.
 
 ## Installation
 
 ```bash
-npm install @uploadnest/sdk
+npm install @tusharg_33/uploadnest-sdk
 # or
-pnpm add @uploadnest/sdk
+pnpm add @tusharg_33/uploadnest-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { UploadNestClient } from "@uploadnest/sdk";
+import { UploadNestClient } from "@tusharg_33/uploadnest-sdk";
 
 const client = new UploadNestClient({
   apiKey: "your-api-key",
@@ -67,7 +67,7 @@ await client.uploadFiles(Array.from(fileInput.files));
 
 ```typescript
 // app/upload/page.tsx
-import { UploadNestClient } from "@uploadnest/sdk";
+import { UploadNestClient } from "@tusharg_33/uploadnest-sdk";
 
 async function uploadAction(formData: FormData) {
   "use server";
@@ -93,7 +93,7 @@ async function uploadAction(formData: FormData) {
 ## Error Handling
 
 ```typescript
-import { ValidationError, UploadError } from "@uploadnest/sdk/errors";
+import { ValidationError, UploadError } from "@tusharg_33/uploadnest-sdk/errors";
 
 try {
   await client.uploadFiles(files);
@@ -111,7 +111,7 @@ try {
 Full TypeScript support with type definitions:
 
 ```typescript
-import type { UploadFileResponse } from "@uploadnest/sdk/types";
+import type { UploadFileResponse } from "@tusharg_33/uploadnest-sdk/types";
 
 const result: UploadFileResponse = await client.uploadFiles(files);
 ```

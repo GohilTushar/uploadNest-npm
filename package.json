@@ -1,5 +1,5 @@
 {
-  "name": "@uploadnest/sdk",
+  "name": "@tusharg_33/uploadnest-sdk",
   "version": "1.0.0",
   "description": "Officical typesscript librabry for the upload Nest API",
   "main": "./dist/index.cjs",
